@@ -1,12 +1,14 @@
-import "./App.css";
-import Layout from "./components/Layout/Layout.jsx";
-
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
+import './App.css';
 
 function App() {
   return (
-
-    <Layout/>
-  )
+    <BrowserRouter>
+      <Layout />
+    </BrowserRouter>
+  );
 }
 
 export default App;

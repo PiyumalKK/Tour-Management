@@ -6,6 +6,7 @@ import tourData from "../assets/data/tours"
 import calculateRating from '../utils/avgRating';
 import avatar from '../assets/images/avatar.jpg'
 import Booking from '../components/Booking/Booking';
+import Newsletter from  '../shared/Newsletter';
 
 export default function TourDetails() {
 
@@ -127,6 +128,7 @@ const submitHandler =e=>{
         </Row>
       </Container>
     </section>
+    <Newsletter/>
     </>
   )
 }
